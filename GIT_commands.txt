@@ -1,3 +1,15 @@
+
+git init
+git commit -m "first commit"
+git add .
+git push -u origin main 
+
+// cPanel terminal command after update
+cd public_html
+cd warehouse.feskspecialsystems.com
+php artisan cache:clear
+
+
 git pushecho "# warehouse" >> README.md
 git init
 git add README.md
@@ -5,7 +17,7 @@ git commit -m "first commit"
 
 git remote add origin https://github.com/kbaylan/fesk.git
 git add .
-git push -u origin master
+git push -u origin main 
 
 
 git push --set-upstream origin main
