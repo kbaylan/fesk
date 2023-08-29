@@ -10,6 +10,7 @@ class WarehouseController extends Controller
 
     /**
      * Show the profile for a given user.
+     * deneme kullanici testi local to server
      */
 
 }
