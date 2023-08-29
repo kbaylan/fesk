@@ -75,7 +75,7 @@
                                             style="display: inline-block;">
                                             <input type="hidden" name="_method" value="DELETE">
                                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                            <input type="submit" class="px-4 py-2 text-white bg-red-700 rounded"
+                                            <input type="submit" class="px-4 py-2 text-white bg-red-700 rounded" style="background-color:#ef4444;border:1px;"
                                                 value="Delete">
                                         </form>
                                     </td>
