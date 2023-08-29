@@ -1,0 +1,24 @@
+git pushecho "# warehouse" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+git remote add origin https://github.com/kbaylan/fesk.git
+git add .
+git push -u origin master
+
+
+git push --set-upstream origin main
+
+
+-Remove the Existing Remote
+git remote
+git remote -v
+git remote revome origin
+
+
+-Update the Existing Remote's URL
+git remote set-url origin https://github.com/kbaylan/fesk.git
+
+-Rename the Existing Remote
+git remote rename origin backu
