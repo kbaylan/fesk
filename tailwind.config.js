@@ -9,6 +9,8 @@ export default {
         './resources/views/**/*.blade.php',
         './pages/**/*.{html,js}',
         './components/**/*.{html,js}',
+        "./resources/**/*.js",
+         "./resources/**/*.vue"
     ],
 
     theme: {
