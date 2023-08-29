@@ -10,7 +10,7 @@ export default {
         './pages/**/*.{html,js}',
         './components/**/*.{html,js}',
         "./resources/**/*.js",
-         "./resources/**/*.vue"
+        "./resources/**/*.vue"
     ],
 
     theme: {
