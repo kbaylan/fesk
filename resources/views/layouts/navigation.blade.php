@@ -75,7 +75,7 @@
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
 
-            <x-responsive-nav-link :href="route('warehouse')" :active="request()->routeIs('warehouse')">
+            <x-responsive-nav-link :href="route('warehouses.index')" :active="request()->routeIs('warehouses.index')">
                 {{ __('Warehouse') }}
             </x-responsive-nav-link>
         </div>
