@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WarehouseController;
+use App\Http\Controllers\ManufacturerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,6 +33,8 @@ Route::middleware('auth')->group(function () {
 
     //warehouse routes
     Route::resource('warehouses', WarehouseController::class);
+    //manufacturer routes
+    Route::resource('manufacturers', ManufacturerController::class);
 });
 
 require __DIR__.'/auth.php';
