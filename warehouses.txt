@@ -1,0 +1,6 @@
+warehouses
+manufacturers
+tools
+--catergories
+services
+products

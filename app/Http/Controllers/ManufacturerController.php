@@ -44,6 +44,7 @@ class ManufacturerController extends Controller
             'description' => $request->description,
             'status' => $request->status,
         ]);
+        
 
         return redirect()->route('manufacturers.index')->with('status', 'Manufacturer Created Successfully');
     }
